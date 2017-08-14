@@ -1,0 +1,51 @@
+% Page Setup -----------------------------------------------------
+\documentclass[11pt, a4paper, fleqn, oneside]{article}
+\usepackage[a4paper]{geometry}
+\geometry{verbose,tmargin=1in,bmargin=1in,lmargin=.6in,rmargin=.6in}
+% Packages ------------------------------------------------------
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{hyperref}
+\usepackage{lastpage}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\setlist[description]{leftmargin=\parindent,labelindent=\parindent}
+\usepackage{multicol}
+\raggedcolumns
+\usepackage{listings} 
+\lstset{showstringspaces=false, frame=single, basicstyle=\footnotesize}
+% Head / Foot ----------------------------------------------------
+\usepackage{fancyhdr}
+\setlength{\headheight}{15.2pt}
+\pagestyle{fancy}
+\lhead{}
+\chead{CSCI3180 Principles of Programming Languages, Spring 2015-2016\\}
+\rhead{Assignment 3 Report}
+\rfoot{\today}
+\lfoot{Page \thepage\ of \pageref{LastPage}}
+
+\begin{document}
+\section{OOP in Perl}
+Compared to traditional class-based OOP found in Ruby, Perl offers a system that is much more
+flexible and serves as middle-ground between class-based and prototype-based systems.
+OOP in Perl has no access control, all class fields and methods are public.
+Class methods can be called in any context during runtime such that methods can be shared
+between classes without inheritance or even used as a static method.
+Classes in Perl has no specific syntax for constructors, instead factory methods are used.
+
+\section{Scoping in C++ and Perl}
+Aside from the traditional local and global scoping found in C++, the Perl language also
+offers dynamic scoping which allows variables to be bound to the call-stack frame instead
+of the lexical block. In my `correct.pl' program all of the variables are declared with `my'
+except for `creditLimit' which is global. This variable is shadowed by a `local' version when
+`premierClient' is called.
+
+\section{Dynamic Scoping}
+Dynamic scoping is a useful language feature that provides an execution context to code without
+the use of OOP, but much like global variables, they must be used with care because programmers
+cannot easily trace their contents by looking at the code. Personally I wouldn't say that this
+feature is required in a programming language because I could easily emulate its behaviour
+in C/C++ with 2 extra lines. (See `local.cpp:premierClient')
+
+\end{document}

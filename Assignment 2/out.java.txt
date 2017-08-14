@@ -1,0 +1,46 @@
+Hospital Administration System:
+
+Patient Alice (p001) enters CU Hospital ...
+Patient Alice (p001) enters A&E Department.
+Patient Alice (p001) is sick! S/he sees a doctor.
+Totally 15 drug items administered.
+Patient Alice (p001) enters Main Pharmacy.
+Dispensed 10 drug items, 5 items still to be dispensed.
+Dispensed 5 drug items, 0 items still to be dispensed.
+Patient Alice (p001) enters Big Big Canteen.
+Buy Noodle and pay $40.
+Patient Alice (p001) has got HK$9960 left in the wallet.
+Patient Alice (p001) enters A&E Department again.
+Patient Alice (p001) has no rights to get salary from A&E Department!
+Patient Alice (p001) enters Happy Club.
+Patient Alice (p001) has no rights to use facilities in the Club!
+
+Doctor Bob (d001) enters CU Hospital ...
+Doctor Bob (d001) enters A&E Department.
+Doctor Bob (d001) is sick! S/he sees a doctor.
+Totally 20 drug items administered.
+Doctor Bob (d001) enters Main Pharmacy.
+Dispensed 10 drug items, 10 items still to be dispensed.
+Dispensed 10 drug items, 0 items still to be dispensed.
+Doctor Bob (d001) enters Big Big Canteen.
+Buy Noodle and pay $40.
+Doctor Bob (d001) has got HK$99960 salary left.
+Doctor Bob (d001) enters A&E Department again.
+A&E Department pays Salary $10000 to Doctor Bob (d001).
+Doctor Bob (d001) has got HK$109960 salary left.
+Doctor Bob (d001) enters Happy Club.
+Eat and drink in the Club.
+
+Visitor v001 enters CU Hospital ...
+Visitor v001 enters A&E Department.
+Visitor v001 has no rights to get see a doctor!
+Visitor v001 enters Main Pharmacy.
+Visitor v001 is not a pharmacy user!
+Visitor v001 is not a pharmacy user!
+Visitor v001 enters Big Big Canteen.
+Buy Noodle and pay $40.
+Visitor v001 has got HK$960 left in the wallet.
+Visitor v001 enters A&E Department again.
+Visitor v001 has no rights to get salary from A&E Department!
+Visitor v001 enters Happy Club.
+Visitor v001 has no rights to use facilities in the Club!
